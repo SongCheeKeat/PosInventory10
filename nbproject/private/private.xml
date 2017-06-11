@@ -3,8 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Chee%20Keat/Documents/NetBeansProjects/PosInventory10/src/view/Application.fxml</file>
-            <file>file:/C:/Users/Chee%20Keat/Documents/NetBeansProjects/PosInventory10/src/StoreKeeper/FXMLDocument.fxml</file>
+            <file>file:/C:/Users/Chee%20Keat/Documents/NetBeansProjects/PosInventory/src/style/MainStyle.css</file>
+            <file>file:/C:/Users/Chee%20Keat/Documents/NetBeansProjects/PosInventory/src/style/Application.css</file>
+            <file>file:/C:/Users/Chee%20Keat/Documents/NetBeansProjects/PosInventory/src/view/application/Employe.fxml</file>
+            <file>file:/C:/Users/Chee%20Keat/Documents/NetBeansProjects/PosInventory/src/style/store.css</file>
+            <file>file:/C:/Users/Chee%20Keat/Documents/NetBeansProjects/PosInventory/src/view/Application.fxml</file>
+            <file>file:/C:/Users/Chee%20Keat/Documents/NetBeansProjects/PosInventory/src/view/application/About.fxml</file>
         </group>
     </open-files>
 </project-private>

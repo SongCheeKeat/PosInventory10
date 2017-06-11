@@ -8,7 +8,7 @@
     -fx-border-radius: 0px;
     -fx-background-radius: 0px;
     /*    -fx-border-color: white;*/
-    -fx-text-fill: #4E4F52;
+    -fx-text-fill: #ffffff;
     /*    -fx-border-radius: 50px;*/
     /*    -fx-background-radius: 50px;*/
     -fx-background-color: #0f5e19;
@@ -24,11 +24,11 @@
 
 }
 .button:pressed{
-    -fx-text-fill: white;
+    -fx-text-fill: #acefb5;
 }
 .button:hover{
-    -fx-background-color: #929292;
-    -fx-text-fill: white;
+    -fx-background-color: #09bf40;
+    -fx-text-fill: acefb5;
 }
 
 MenuButton{
@@ -119,18 +119,20 @@ MenuButton{
 
 }
 #acHead{
-    -fx-background-color:#70e07f;
+    -fx-background-color:#acefb5;
 }
+
 #acDashBord{
     -fx-background-color:#282E34;
 }
 #mbtnUsrInfoBox{
-    -fx-background-color:#282E34;
-    -fx-text-fill: white;
+    -fx-background-color:#acefb5;
+    -fx-text-fill: #0f5e19;
 }
 #mbtnUsrInfoBox:hover, #mbtnUsrInfoBox:focused{
     -fx-background-color:#494949;
 }
+
 #circleImgUsr{
     -fx-padding: 0;
 }

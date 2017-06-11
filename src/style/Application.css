@@ -24,11 +24,11 @@
 
 }
 .button:pressed{
-    -fx-text-fill: white;
+    -fx-text-fill: #acefb5;
 }
 .button:hover{
-    -fx-background-color: #929292;
-    -fx-text-fill: white;
+    -fx-background-color: #09bf40;
+    -fx-text-fill: acefb5;
 }
 
 MenuButton{
@@ -121,16 +121,18 @@ MenuButton{
 #acHead{
     -fx-background-color:#acefb5;
 }
+
 #acDashBord{
     -fx-background-color:#282E34;
 }
 #mbtnUsrInfoBox{
     -fx-background-color:#acefb5;
-    -fx-text-fill: white;
+    -fx-text-fill: #0f5e19;
 }
 #mbtnUsrInfoBox:hover, #mbtnUsrInfoBox:focused{
     -fx-background-color:#494949;
 }
+
 #circleImgUsr{
     -fx-padding: 0;
 }
