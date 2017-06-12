@@ -53,7 +53,7 @@
                               <TextField fx:id="tfCreatedBy" disable="true" editable="false" visible="false" GridPane.columnSpan="2" GridPane.rowIndex="13" />
                               <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.columnSpan="2" GridPane.rowSpan="6">
                                  <children>
-                                    <Rectangle fx:id="recUsrImage" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="134.0" layoutX="34.0" stroke="BLACK" strokeType="INSIDE" width="128.0" />
+                                    <Rectangle fx:id="recUsrImage" arcHeight="5.0" arcWidth="5.0" fill="#acefb5" height="134.0" layoutX="34.0" stroke="BLACK" strokeType="INSIDE" width="128.0" />
                                     <Button fx:id="btnAttachImage" layoutX="48.0" layoutY="141.0" mnemonicParsing="false" onAction="#btnAttachImageOnAction" text="Attach image" />
                                  </children>
                               </AnchorPane>

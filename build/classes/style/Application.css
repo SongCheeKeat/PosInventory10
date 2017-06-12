@@ -20,15 +20,16 @@
 
 .button:focused{
     -fx-border-width: 0px 0px 0px 0px;
+     -fx-text-fill: #acefb5;
     /*    -fx-text-fill: #FFFFFF;*/
 
 }
 .button:pressed{
-    -fx-text-fill: #acefb5;
+    /*-fx-text-fill: #acefb5;*/
 }
 .button:hover{
     -fx-background-color: #09bf40;
-    -fx-text-fill: acefb5;
+    /*-fx-text-fill: #acefb5;*/
 }
 
 MenuButton{
@@ -123,7 +124,7 @@ MenuButton{
 }
 
 #acDashBord{
-    -fx-background-color:#282E34;
+    -fx-background-color:#0f5e19;
 }
 #mbtnUsrInfoBox{
     -fx-background-color:#acefb5;

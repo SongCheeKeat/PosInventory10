@@ -156,7 +156,7 @@ public class ApplicationController implements Initializable {
             + "-fx-border-color:none";
 
     String activeStyle = "-fx-border-width: 0px 0px 0px 5px;"
-            + "-fx-border-color:#FF4E3C";
+            + "-fx-border-color:#acefb5";
 
     Image home = new Image("/icon/home.png");
     Image homeRed = new Image("/icon/homeRed.png");

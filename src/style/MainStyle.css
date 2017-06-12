@@ -54,7 +54,7 @@ and open the template in the editor.
 
 .button{
     -fx-border-width: 0.5px;
-    -fx-border-color: #ACACAC;
+    -fx-border-color: #07300c;
     -fx-border-radius: 50px;
     -fx-background-radius: 50px;
     -fx-background-color: #0f5e19;
@@ -62,6 +62,7 @@ and open the template in the editor.
     -fx-padding: 8px 25px;
     -fx-font-weight:700;
     -fx-font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    -fx-text-fill: white;
 }
 .button:hover{
     -fx-background-color: #acefb5;
@@ -333,11 +334,11 @@ AnchorPane{
         -fx-border-insets: -1 -1 0 0;
     }
     .table-view .column-drag-header {
-        -fx-background-color: rgb(45,137,239);
+        -fx-background-color: rgb(15, 94, 25);
         -fx-opacity: 0.6;
     }
     .table-view .column-resize-line {
-        -fx-background-color: rgb(45,137,239);
+        -fx-background-color: rgb(15, 94, 25);
     }
     .table-view .column-overlay {
         -fx-background-color: darkgray;
@@ -384,7 +385,7 @@ AnchorPane{
 
     .menu-item .label {
         -fx-padding: 0em 0.5em 0em 0em;
-        -fx-text-fill: white;
+        -fx-text-fill: #0f5e19;
         -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
         -fx-font-size: 11pt;
     }
@@ -392,7 +393,7 @@ AnchorPane{
 
     .menu-item:focused {
         -fx-background: -fx-accent;
-        -fx-background-color: #dedede;
+        -fx-background-color: #acefb5;
     }
 
     .menu-item:pressed
