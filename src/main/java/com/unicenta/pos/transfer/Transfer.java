@@ -19,8 +19,6 @@
 
 package com.unicenta.pos.transfer;
 
-
-
 import com.openbravo.data.loader.BatchSentence;
 import com.openbravo.data.loader.BatchSentenceResource;
 import com.openbravo.data.loader.Session;
@@ -57,7 +55,6 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JPanel;
-
 
 /**
  *
@@ -100,7 +97,6 @@ public final class Transfer extends JPanel implements JPanelView {
     
     public String strOut = "";
         
-
     /**
      * Creates new form JPaneldbTransfer
      * @param oApp

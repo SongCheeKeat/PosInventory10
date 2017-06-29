@@ -131,6 +131,9 @@ group = menu.addGroup("Menu.Backoffice");
         submenu.addPanel("/com/openbravo/images/reports.png", "Menu.NewProducts", "/com/openbravo/reports/newproducts.bs");
         submenu.addPanel("/com/openbravo/images/reports.png", "Menu.MissingData", "/com/openbravo/reports/missingdata.bs");
         submenu.addPanel("/com/openbravo/images/reports.png", "Menu.InvalidData", "/com/openbravo/reports/invaliddata.bs");
+ submenu.addTitle("Menu.Export");
+        submenu.addPanel("/com/openbravo/images/import.png", "Menu.CSVExport", "com.openbravo.pos.export.JPanelCSVExport");
+        submenu.addPanel("/com/openbravo/images/reports.png", "Menu.GenerateInventoryExcelReport", "com.openbravo.pos.export.GenerateExcelReport");
 
     group = menu.addGroup("Menu.System");
     group.addChangePasswordAction();
